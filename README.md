@@ -18,7 +18,6 @@ pip install defopt
 python modules/vds_to_matrix_table.py --help
 ```
 ### Required Inputs
-There are three general steps to successfully creating custom bgens from the VDS:
 1) Create a variant list in the for of a tab separated file with the following columns:
    
 |Column Name    |Description     |
