@@ -17,7 +17,7 @@ pip install defopt
 # To test correct environment & dependency install
 python modules/vds_to_matrix_table.py --help
 ```
-### Required Inputs
+## Required Inputs
 1) Create a variant list in the for of a tab separated file with the following columns:
    
 |Column Name    |Description     |
