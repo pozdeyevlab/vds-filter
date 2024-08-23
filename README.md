@@ -20,12 +20,13 @@ python modules/vds_to_matrix_table.py --help
 ### Required Inputs
 There are three general steps to successfully creating custom bgens from the VDS:
 1) Create a variant list in the for of a tab separated file with the following columns:
+   
 |Column Name    |Description     |
 |---------------|----------------|
-|CHR        |chromosome number preceded by 'chr' i.e. chr1|
-|POS    |GRCh38 position|
-|REF |Reference allele(s) (capitalized)|
-|ALT |Alternate allele(s) (capitalized)|
+|CHR|chromosome number preceded by 'chr' i.e. chr1|
+|POS|GRCh38 position|
+|REF|Reference allele(s) (capitalized)|
+|ALT|Alternate allele(s) (capitalized)|
 
 2) VDS data, for researchers with controlled tier access please see this help [article](https://support.researchallofus.org/hc/en-us/articles/5439665241876-How-do-I-select-specific-variants-from-the-Hail-MatrixTables-or-Hail-VDS) on accessing the dataset.
 
