@@ -2,7 +2,7 @@
 This repository describes the process of filtering the All of Us (AoU) VariantDataset ([VDS](https://hail.is/docs/0.2/vds/index.html)) and converting the resulting matrix tables to bgens (v1.2).
 
 ## AoU Disclaimer
-The input data required for this process is not publicly available and researchers who do not already have "Control Tier Access' will need to go through the proper registration and training before attempting to access the VDS on AoU.
+The input data required for this process is not publicly available and researchers who do not have "Controlled Tier Access' will need to go through the proper registration and training before attempting to complete the steps outlined below. 
 
 ## Environment & Dependency Set Up
 1) Conda is not viable on AOU, due to the root access required to run conda. Luckily, most of the dependencies are already installed on AoU. If you intend to run these scripts on the command line you must install 'defopt' before proceeding. 
