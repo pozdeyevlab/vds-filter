@@ -1,2 +1,2 @@
 # vds-filter
-Repo describing the process of getting bgens from vds data on All of Us
+This repository describes the process of filtering the All of Us (AoU) variant data set (VDS) and converting the resulting matrix tables to bgens (v1.2).
